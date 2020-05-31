@@ -1,0 +1,78 @@
+
+.button1 {
+	
+	position: absolute;
+	top: 90%;
+	left: 33%;	
+	background-color: blue;
+	
+	color: white;
+	height: 50px;
+	
+}
+
+
+.one {
+	
+	position: absolute;
+	top: 10%;
+	left: 75%;	
+	
+	
+}
+
+
+.camera {
+	
+	position: absolute;
+	top: 20%;
+	left: 29%;	
+	width: 400px;
+	height: 400px;
+	
+	
+}
+
+
+
+.button {
+	position: absolute;
+	top: 60%;
+	left: 8%;	
+  display: inline-block;
+  margin: 40px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  cursor: pointer;
+  border-radius: 50%;
+
+  box-shadow: 0 3px 20px rgba(0,0,0,.25),
+  inset 0 2px 0 rgba(255,255,255,.6),
+  0 2px 0 rgba(0,0,0,.1),
+  inset 0 0 20px rgba(0,0,0,.1);
+}
+.btn-photo {
+  background: url(3.jpg) center center no-repeat;
+}
+
+
+@keyframes clr 
+{
+  0%   {background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(./1.jpg);
+  
+    background-size: 100%;}
+  100% {background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(./2.jpg); 
+
+ 
+  
+    background-size: 100%; }
+}
+.boi
+{
+  width:100%;
+  height:100%;
+  animation: clr 8s infinite;
+}
+
+
